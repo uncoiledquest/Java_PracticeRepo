@@ -1,0 +1,36 @@
+Q1. What is the difference between:
+
+int
+long
+float
+double
+
+Ans1. 
+
+int : Accepts Integer as a value and it's size is only 4 bytes. ( - 2 x 10^9 to + 2 x 10^9 )
+long: Accepts Integer as well but it's size is about 8 bytes. ( - 9.22 x 10^18 to + 9.22 x 10^18 )
+
+float: Accepts Decimal number as a value and it's size is about 4 bytes. ( 6 to 7 decimals precision )
+double: Accepts Decimal number as a value and it's size is about 8 bytes. ( 15 decimals digits of precision )
+
+Q2. What is integer overflow?
+
+Give one example where it can occur without producing a compile-time error.
+
+Ans2. Integer can be taken through 2 ways simply put, either using int or using long.
+Each have different overflow condition.
+Overflow means when we try to assign value more than the size of that specific data type.
+An integer has a size of about |2 x 10^9|, if we were to assign value beyond that limit, say 10^10,
+then it will cause an overflow.
+However, an overflow won't be caused for 'long' datatype if given 10^10.
+Since it's size is 8 bytes, it can accept upto | 9x10^18 |, thus the overflow condition is that much.
+
+Q3. Why does Java require:
+
+long population = 8000000000L;
+
+instead of:
+
+long population = 8000000000;
+
+Ans3. 
