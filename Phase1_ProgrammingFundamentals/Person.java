@@ -1,4 +1,4 @@
-package Java_RoadMap;
+package Java_RoadMap.Phase1_ProgrammingFundamentals;
 
 public class Person {
 

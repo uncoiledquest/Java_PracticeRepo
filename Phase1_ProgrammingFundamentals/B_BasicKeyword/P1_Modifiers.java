@@ -2,7 +2,7 @@ package Java_RoadMap.Phase1_ProgrammingFundamentals.B_BasicKeyword;
 
 import java.util.Scanner;
 
-import Java_RoadMap.Person;
+import Java_RoadMap.Phase1_ProgrammingFundamentals.Person;
 
 public class P1_Modifiers {
 

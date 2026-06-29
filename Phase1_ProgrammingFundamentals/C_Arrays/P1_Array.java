@@ -1,6 +1,6 @@
 package Java_RoadMap.Phase1_ProgrammingFundamentals.C_Arrays;
 
-import Java_RoadMap.Person;
+import Java_RoadMap.Phase1_ProgrammingFundamentals.Person;
 import java.util.Scanner;
 
 public class P1_Array{
