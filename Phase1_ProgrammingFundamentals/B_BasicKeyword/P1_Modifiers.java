@@ -16,12 +16,13 @@ public class P1_Modifiers {
     }
 
     public static void main(String[] args) {
-        Person p1= new Person(returnName());
-        Person p2= new Person(returnName());
-        Person p3= new Person(returnName());
+
+        // Using Loop to add multiple people
+        Person p1=null;
+
+        for (int i = 0; i<4; i++) p1 = new Person();
+
         System.out.print(p1.numOfPerson());
 
     }
-
-
 }
